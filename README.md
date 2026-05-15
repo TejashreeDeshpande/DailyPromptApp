@@ -188,4 +188,50 @@ val featureRegistry: List<FeatureEntry> = listOf(
 | Feature | Route | Description |
 |---|---|---|
 | Search | `search_screen` | Live-filter search over a list of sample daily prompts |
-# DailyPromptApp
+
+---
+
+## Practice Prompts
+
+Interview-style feature prompts for 40-minute coding sessions. Each prompt is scoped to one deliverable and targets specific Android/Kotlin/Compose fundamentals. Ordered from easiest to hardest.
+
+### Easy — single screen, basic state
+
+| Prompt file | Key concepts |
+|---|---|
+| [feature-counter.md](prompts/feature-counter.md) | `remember`, `mutableStateOf`, simple UI events |
+| [feature-todo-list.md](prompts/feature-todo-list.md) | `LazyColumn`, `mutableStateListOf`, toggle state |
+| [feature-expense-tracker.md](prompts/feature-expense-tracker.md) | List mutation, derived total, delete item |
+| [feature-search.md](prompts/feature-search.md) | `TextField`, live list filtering, clear-to-reset |
+| [feature-favorites.md](prompts/feature-favorites.md) | Data class `copy()`, list filtering, toggle |
+| [feature-sort-filter.md](prompts/feature-sort-filter.md) | Composing multiple state transforms, `remember` chains |
+
+### Medium — validation, async, multi-step logic
+
+| Prompt file | Key concepts |
+|---|---|
+| [feature-form-validation.md](prompts/feature-form-validation.md) | Real-time validation, `derivedStateOf`, input UX |
+| [feature-chat-ui.md](prompts/feature-chat-ui.md) | `LazyListState.scrollToItem`, message alignment, layout |
+| [feature-quiz.md](prompts/feature-quiz.md) | State machines, sealed classes, multi-step UI flows |
+| [feature-expandable-list.md](prompts/feature-expandable-list.md) | `AnimatedVisibility`, exclusive state, `key` in lazy lists |
+| [feature-pull-to-refresh.md](prompts/feature-pull-to-refresh.md) | `PullRefreshIndicator`, coroutines, error handling |
+| [feature-timer.md](prompts/feature-timer.md) | Coroutines, `LaunchedEffect`, pause/resume lifecycle |
+
+### Medium-Hard — navigation, persistence, animations
+
+| Prompt file | Key concepts |
+|---|---|
+| [feature-note-editor.md](prompts/feature-note-editor.md) | Navigation with arguments, shared `ViewModel` |
+| [feature-tab-navigation.md](prompts/feature-tab-navigation.md) | `NavHost`, `BottomNavigation`, state restoration |
+| [feature-animated-splash.md](prompts/feature-animated-splash.md) | `animate*AsState`, `NavHost` transitions, launch logic |
+| [feature-swipe-to-delete.md](prompts/feature-swipe-to-delete.md) | `SwipeToDismiss`, `Snackbar`, undo pattern |
+| [feature-image-gallery.md](prompts/feature-image-gallery.md) | `LazyVerticalGrid`, Coil/image loading, async states |
+
+### Hard — persistence, system APIs, advanced patterns
+
+| Prompt file | Key concepts |
+|---|---|
+| [feature-settings-screen.md](prompts/feature-settings-screen.md) | `DataStore`/SharedPreferences, preference persistence |
+| [feature-onboarding.md](prompts/feature-onboarding.md) | `HorizontalPager`, `DataStore`, one-time launch logic |
+| [feature-offline-indicator.md](prompts/feature-offline-indicator.md) | `ConnectivityManager`, `Flow`, reactive UI state |
+| [feature-pagination.md](prompts/feature-pagination.md) | Paging, `collectAsLazyPagingItems`, loading/error states |
