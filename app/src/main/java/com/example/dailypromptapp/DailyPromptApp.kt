@@ -1,6 +1,7 @@
 package com.example.dailypromptapp
 
 import android.app.Application
+import com.example.feature.counter.di.chatUiModule
 import com.example.feature.counter.di.counterModule
 import com.example.feature.search.di.searchModule
 import com.example.feature.todolist.di.todolistModule
@@ -15,6 +16,7 @@ class DailyPromptApp : Application() {
             modules(searchModule)
             modules(counterModule)
             modules(todolistModule)
+            modules(chatUiModule)
         }
     }
 }

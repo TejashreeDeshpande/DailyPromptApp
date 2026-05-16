@@ -6,6 +6,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.dailypromptapp.ui.FeatureListScreen
+import com.example.feature.chat.ui.navigation.chatScreen
 import com.example.feature.counter.navigation.counterScreen
 import com.example.feature.search.navigation.searchScreen
 import com.example.feature.search.navigation.todolistScreen
@@ -32,5 +33,6 @@ fun AppNavHost(navController: NavHostController = rememberNavController()) {
         searchScreen(navController)
         counterScreen(navController)
         todolistScreen(navController)
+        chatScreen(navController)
     }
 }

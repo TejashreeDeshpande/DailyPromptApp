@@ -58,4 +58,5 @@ dependencies {
     implementation(project(":features:feature-search"))
     implementation(project(":features:feature-counter"))
     implementation(project(":features:feature-todolist"))
+    implementation(project(":features:feature-chat-ui"))
 }
