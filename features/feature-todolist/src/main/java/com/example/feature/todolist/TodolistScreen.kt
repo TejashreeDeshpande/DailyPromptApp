@@ -95,8 +95,7 @@ fun TodolistScreen(onBack: () -> Unit) {
 fun TodolistContents(
     modifier: Modifier,
     list: List<Todo>,
-    onCheckedChange: (Todo) -> Unit,
-    onClickDelete: (Todo) -> Unit
+    onCheckedChange: (Todo) -> Unit
 ) {
 
     LazyColumn(modifier = modifier) {
