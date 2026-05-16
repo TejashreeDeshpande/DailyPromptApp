@@ -1,7 +1,9 @@
 package com.example.dailypromptapp
 
 import android.app.Application
+import com.example.feature.counter.di.counterModule
 import com.example.feature.search.di.searchModule
+import com.example.feature.todolist.di.todolistModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -11,6 +13,8 @@ class DailyPromptApp : Application() {
         startKoin {
             androidContext(this@DailyPromptApp)
             modules(searchModule)
+            modules(counterModule)
+            modules(todolistModule)
         }
     }
 }

@@ -25,3 +25,5 @@ include(":app")
 
 // Feature modules — add new features here
 include(":features:feature-search")
+include(":features:feature-counter")
+include(":features:feature-todolist")

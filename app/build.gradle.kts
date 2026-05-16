@@ -56,4 +56,6 @@ dependencies {
 
     // Feature modules — add new feature dependencies here
     implementation(project(":features:feature-search"))
+    implementation(project(":features:feature-counter"))
+    implementation(project(":features:feature-todolist"))
 }

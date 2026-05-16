@@ -11,6 +11,7 @@ A multi-module Android project built as a personal testing playground. The app d
 | Language | Kotlin 2.0 |
 | UI | Jetpack Compose |
 | Navigation | Navigation Compose 2.7.7 |
+| State management | `ViewModel` + `StateFlow` (one ViewModel per feature) |
 | Build system | Gradle 8.6 (Kotlin DSL) |
 | Android Gradle Plugin | 8.3.2 |
 | Compose BOM | 2024.06.00 |
@@ -37,12 +38,25 @@ DailyPromptApp/
 │               ├── FeatureRegistry.kt  # Central list of features shown on home
 │               └── theme/
 ├── features/
-│   └── feature-search/                 # Search feature module
+│   ├── feature-search/                 # Search feature module
+│   │   └── src/main/
+│   │       └── java/com/example/feature/search/
+│   │           ├── SearchScreen.kt
+│   │           ├── viewmodel/
+│   │           │   └── SearchViewModel.kt
+│   │           └── navigation/
+│   │               └── SearchNavigation.kt
+│   └── feature-counter/                # Counter feature module
 │       └── src/main/
-│           └── java/com/example/feature/search/
-│               ├── SearchScreen.kt
+│           └── java/com/example/feature/counter/
+│               ├── CounterScreen.kt
+│               ├── model/
+│               │   ├── Product.kt
+│               │   └── ProductMockData.kt
+│               ├── viewmodel/
+│               │   └── CounterViewModel.kt
 │               └── navigation/
-│                   └── SearchNavigation.kt
+│                   └── CounterNavigation.kt
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── gradle.properties
@@ -54,7 +68,8 @@ DailyPromptApp/
 
 ```
 :app
- └── :features:feature-search
+ ├── :features:feature-search
+ └── :features:feature-counter
 ```
 
 The `:app` module depends on all feature modules. Feature modules are standalone libraries — they do not depend on `:app` or on each other.
@@ -84,6 +99,8 @@ features/
         ├── AndroidManifest.xml
         └── java/com/example/feature/<name>/
             ├── <Name>Screen.kt
+            ├── viewmodel/
+            │   └── <Name>ViewModel.kt
             └── navigation/
                 └── <Name>Navigation.kt
 ```
@@ -118,7 +135,24 @@ dependencies {
 }
 ```
 
-### 3. Expose a navigation extension
+### 3. Create the ViewModel
+
+Each feature owns its own `ViewModel` scoped to its composable via `viewModel()`. State is exposed as `StateFlow`.
+
+```kotlin
+// features/feature-<name>/src/.../viewmodel/<Name>ViewModel.kt
+
+class <Name>ViewModel : ViewModel() {
+    private val _state = MutableStateFlow(<initialValue>)
+    val state: StateFlow<<Type>> = _state
+
+    fun onSomeAction() {
+        // update _state
+    }
+}
+```
+
+### 4. Expose a navigation extension
 
 ```kotlin
 // features/feature-<name>/src/.../navigation/<Name>Navigation.kt
@@ -132,19 +166,19 @@ fun NavGraphBuilder.<name>Screen(navController: NavController) {
 }
 ```
 
-### 4. Register the module in `settings.gradle.kts`
+### 5. Register the module in `settings.gradle.kts`
 
 ```kotlin
 include(":features:feature-<name>")
 ```
 
-### 5. Add the dependency in `app/build.gradle.kts`
+### 6. Add the dependency in `app/build.gradle.kts`
 
 ```kotlin
 implementation(project(":features:feature-<name>"))
 ```
 
-### 6. Wire navigation in `AppNavHost.kt`
+### 7. Wire navigation in `AppNavHost.kt`
 
 ```kotlin
 NavHost(...) {
@@ -154,7 +188,7 @@ NavHost(...) {
 }
 ```
 
-### 7. Add a card to the home list in `FeatureRegistry.kt`
+### 8. Add a card to the home list in `FeatureRegistry.kt`
 
 ```kotlin
 val featureRegistry: List<FeatureEntry> = listOf(
@@ -185,9 +219,10 @@ val featureRegistry: List<FeatureEntry> = listOf(
 
 ## Existing Features
 
-| Feature | Route | Description |
-|---|---|---|
-| Search | `search_screen` | Live-filter search over a list of sample daily prompts |
+| Feature | Route | ViewModel | Description |
+|---|---|---|---|
+| Search | `search_screen` | `SearchViewModel` | Live-filter search over a list of countries using `StateFlow` + `combine` |
+| Counter | `counter_screen` | `CounterViewModel` | Per-product quantity counter with a derived total using `StateFlow` + `map` |
 
 ---
 
@@ -221,7 +256,7 @@ Interview-style feature prompts for 40-minute coding sessions. Each prompt is sc
 
 | Prompt file | Key concepts |
 |---|---|
-| [feature-note-editor.md](prompts/feature-note-editor.md) | Navigation with arguments, shared `ViewModel` |
+| [feature-note-editor.md](prompts/feature-note-editor.md) | Navigation with arguments, `ViewModel` scoped to nav entry |
 | [feature-tab-navigation.md](prompts/feature-tab-navigation.md) | `NavHost`, `BottomNavigation`, state restoration |
 | [feature-animated-splash.md](prompts/feature-animated-splash.md) | `animate*AsState`, `NavHost` transitions, launch logic |
 | [feature-swipe-to-delete.md](prompts/feature-swipe-to-delete.md) | `SwipeToDismiss`, `Snackbar`, undo pattern |

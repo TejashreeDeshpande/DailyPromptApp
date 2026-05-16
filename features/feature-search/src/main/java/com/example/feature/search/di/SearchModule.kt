@@ -1,6 +1,6 @@
 package com.example.feature.search.di
 
-import com.example.feature.search.viewModel.SearchViewModel
+import com.example.feature.search.viewmodel.SearchViewModel
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 

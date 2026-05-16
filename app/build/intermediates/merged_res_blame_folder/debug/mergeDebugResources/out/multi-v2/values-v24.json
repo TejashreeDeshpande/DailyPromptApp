@@ -4,7 +4,7 @@
             "outputFile": "com.example.dailypromptapp-mergeDebugResources-49:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/tejashree/.gradle/caches/8.11.1/transforms/291ac75fd10b48c37f536790205dbe97/transformed/appcompat-1.7.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/tejashree/.gradle/caches/8.11.1/transforms/dfac8f6d4dc275783cba387ab1090fe6/transformed/appcompat-1.7.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
