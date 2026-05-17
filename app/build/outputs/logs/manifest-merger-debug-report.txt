@@ -1,13 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-20:12
-INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:1-22:12
 MERGED from [:features:feature-search] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-search/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:features:feature-counter] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-counter/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:features:feature-todolist] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-todolist/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [:features:feature-chat-ui] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-chat-ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:features:feature-image-gallery] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-image-gallery/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:features:feature-quiz] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-quiz/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/d198552ddf2590fcf6f93fe4c4eba2c1/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/779e87ff9f22044a713ade99dc4887b6/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/0ac1a7eaf9b029e52ec2502dcc8619b1/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
@@ -17,6 +19,10 @@ MERGED from [io.insert-koin:koin-androidx-compose:4.2.1] /Users/tejashree/.gradl
 MERGED from [io.insert-koin:koin-compose-viewmodel-android:4.2.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/2e685f07bf918217dbd8739c0ca6f717/transformed/koin-compose-viewmodel-release/AndroidManifest.xml:2:1-7:12
 MERGED from [io.insert-koin:koin-compose-android:4.2.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/cc808cdc4ae9ec2c727295861db38c7c/transformed/koin-compose-release/AndroidManifest.xml:2:1-7:12
 MERGED from [io.insert-koin:koin-android:4.2.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/f79ca7d2798b11ad21f6b19a9734b64d/transformed/koin-android-4.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/9eabdf105bcc8edea55492b9a7b3f86d/transformed/coil-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/bbebf130c96459b7f6598bc16655b683/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/49916fc5061b6604e58efbdd32ae333e/transformed/coil-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/5991d272ebc8a166561ef37509ea6ea0/transformed/coil-base-2.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/a3ec74b9af60670471505eede56b4f78/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/dfac8f6d4dc275783cba387ab1090fe6/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.8.9] /Users/tejashree/.gradle/caches/8.11.1/transforms/725ff810757293aa737a9ec64c582967/transformed/fragment-1.8.9/AndroidManifest.xml:2:1-7:12
@@ -78,6 +84,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.10.0] /Users/tejas
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/7f75a00c1d68c1dceee4eff4b129451b/transformed/lifecycle-livedata-core-ktx-2.10.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/bff993e50f914dbf471f7417d9da2197/transformed/lifecycle-viewmodel-ktx-2.10.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/c3a9318debd8cfd01f122c10ceb3287a/transformed/lifecycle-viewmodel-compose/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/aadc0f6a04335686728d46706f8d01e2/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.compose.ui:ui-android:1.10.4] /Users/tejashree/.gradle/caches/8.11.1/transforms/0ed6649b25dd6656ba9c1bf31cc5580d/transformed/ui/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /Users/tejashree/.gradle/caches/8.11.1/transforms/61493070611667c560f6e614fafaf211/transformed/ui-tooling/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.activity:activity-compose:1.12.4] /Users/tejashree/.gradle/caches/8.11.1/transforms/10f97e9f4495b8245d74b684dc0c7d9e/transformed/activity-compose-1.12.4/AndroidManifest.xml:2:1-7:12
@@ -89,6 +96,7 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/tejashree/
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/0b372f6c325c3e2cd78639b517b966c4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/d5ff88c22089849b14c83bd7ba965550/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/0d916835b1aca66344a2baccbe280aef/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/74601804726655e713d5c49205a7449d/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/3d9790210362f8646ef91541d37c5aba/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/1d8c27ca04443a3817095712004c4fa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/1fb4f459ea785b95f89b74d000409cb5/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -102,9 +110,13 @@ MERGED from [androidx.print:print:1.0.0] /Users/tejashree/.gradle/caches/8.11.1/
 		INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:4:5-18:19
-INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:4:5-18:19
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:6:5-20:19
+INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:6:5-20:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/ec250cc9e851a7ca2cd6dc14dfa44e81/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/ec250cc9e851a7ca2cd6dc14dfa44e81/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/bfe33ea047435151e3e52e98f49bfdf9/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:23:5-33:19
@@ -126,31 +138,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/teja
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.16.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/2c2ad9394de815e087bf9232639ef2d9/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:7:9-41
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:9:9-41
 	android:allowBackup
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:9:9-52
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:11:9-52
 	android:name
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:5:9-39
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:7:9-39
 activity#com.example.dailypromptapp.MainActivity
-ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:10:9-17:20
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:12:9-19:20
 	android:exported
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:12:13-36
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/tejashree/Tejashree/projects/android/DailyPromptApp/app/src/main/AndroidManifest.xml
@@ -163,6 +175,10 @@ MERGED from [:features:feature-todolist] /Users/tejashree/Tejashree/projects/and
 MERGED from [:features:feature-todolist] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-todolist/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:features:feature-chat-ui] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-chat-ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [:features:feature-chat-ui] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-chat-ui/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:features:feature-image-gallery] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-image-gallery/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:features:feature-image-gallery] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-image-gallery/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:features:feature-quiz] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-quiz/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:features:feature-quiz] /Users/tejashree/Tejashree/projects/android/DailyPromptApp/features/feature-quiz/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/d198552ddf2590fcf6f93fe4c4eba2c1/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/d198552ddf2590fcf6f93fe4c4eba2c1/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/779e87ff9f22044a713ade99dc4887b6/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
@@ -181,6 +197,14 @@ MERGED from [io.insert-koin:koin-compose-android:4.2.1] /Users/tejashree/.gradle
 MERGED from [io.insert-koin:koin-compose-android:4.2.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/cc808cdc4ae9ec2c727295861db38c7c/transformed/koin-compose-release/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:4.2.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/f79ca7d2798b11ad21f6b19a9734b64d/transformed/koin-android-4.2.1/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:4.2.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/f79ca7d2798b11ad21f6b19a9734b64d/transformed/koin-android-4.2.1/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/9eabdf105bcc8edea55492b9a7b3f86d/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/9eabdf105bcc8edea55492b9a7b3f86d/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/bbebf130c96459b7f6598bc16655b683/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/bbebf130c96459b7f6598bc16655b683/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/49916fc5061b6604e58efbdd32ae333e/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/49916fc5061b6604e58efbdd32ae333e/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/5991d272ebc8a166561ef37509ea6ea0/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/5991d272ebc8a166561ef37509ea6ea0/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/a3ec74b9af60670471505eede56b4f78/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/a3ec74b9af60670471505eede56b4f78/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/dfac8f6d4dc275783cba387ab1090fe6/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
@@ -303,6 +327,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] /Users/tejashree
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/bff993e50f914dbf471f7417d9da2197/transformed/lifecycle-viewmodel-ktx-2.10.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/c3a9318debd8cfd01f122c10ceb3287a/transformed/lifecycle-viewmodel-compose/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.10.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/c3a9318debd8cfd01f122c10ceb3287a/transformed/lifecycle-viewmodel-compose/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/aadc0f6a04335686728d46706f8d01e2/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/aadc0f6a04335686728d46706f8d01e2/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.compose.ui:ui-android:1.10.4] /Users/tejashree/.gradle/caches/8.11.1/transforms/0ed6649b25dd6656ba9c1bf31cc5580d/transformed/ui/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-android:1.10.4] /Users/tejashree/.gradle/caches/8.11.1/transforms/0ed6649b25dd6656ba9c1bf31cc5580d/transformed/ui/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] /Users/tejashree/.gradle/caches/8.11.1/transforms/61493070611667c560f6e614fafaf211/transformed/ui-tooling/AndroidManifest.xml:20:5-44
@@ -325,6 +351,8 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejashree/.gradle/ca
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/d5ff88c22089849b14c83bd7ba965550/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/0d916835b1aca66344a2baccbe280aef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/0d916835b1aca66344a2baccbe280aef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/74601804726655e713d5c49205a7449d/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/tejashree/.gradle/caches/8.11.1/transforms/74601804726655e713d5c49205a7449d/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/3d9790210362f8646ef91541d37c5aba/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.tracing:tracing:1.2.0] /Users/tejashree/.gradle/caches/8.11.1/transforms/3d9790210362f8646ef91541d37c5aba/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tejashree/.gradle/caches/8.11.1/transforms/1d8c27ca04443a3817095712004c4fa3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41

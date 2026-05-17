@@ -1,4 +1,4 @@
-package com.example.feature.search.navigation
+package com.example.feature.todolist.navigation
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder

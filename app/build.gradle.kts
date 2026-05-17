@@ -59,4 +59,6 @@ dependencies {
     implementation(project(":features:feature-counter"))
     implementation(project(":features:feature-todolist"))
     implementation(project(":features:feature-chat-ui"))
+    implementation(project(":features:feature-image-gallery"))
+    implementation(project(":features:feature-quiz"))
 }

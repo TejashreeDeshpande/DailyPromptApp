@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dailypromptapp-mergeDebugResources-49:/values-mr/values-mr.xml",
+            "outputFile": "com.example.dailypromptapp-mergeDebugResources-50:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/Users/tejashree/.gradle/caches/8.11.1/transforms/0ed6649b25dd6656ba9c1bf31cc5580d/transformed/ui/res/values-mr/values-mr.xml",

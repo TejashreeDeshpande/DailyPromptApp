@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dailypromptapp-mergeDebugResources-49:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.dailypromptapp-mergeDebugResources-50:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "/Users/tejashree/.gradle/caches/8.11.1/transforms/d1624cdc74073a7ba450e7c8dc19e344/transformed/material3/res/values-zh-rTW/values-zh-rTW.xml",

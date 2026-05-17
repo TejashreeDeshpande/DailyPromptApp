@@ -2,14 +2,18 @@ package com.example.dailypromptapp.ui
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Chat
+import androidx.compose.material.icons.automirrored.filled.Message
 import androidx.compose.material.icons.automirrored.filled.Note
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.AddPhotoAlternate
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.feature.chat.ui.navigation.ROUTE_CHAT
 import com.example.feature.counter.navigation.ROUTE_COUNTER
+import com.example.feature.imagegallery.navigation.ROUTE_IMAGE_GALLERY
 import com.example.feature.search.navigation.ROUTE_SEARCH
-import com.example.feature.search.navigation.ROUTE_TODOLIST
+import com.example.feature.todolist.navigation.ROUTE_TODOLIST
+import com.example.feature.quiz.navigation.ROUTE_QUIZ
 
 data class FeatureEntry(
     val title: String,
@@ -49,5 +53,17 @@ val featureRegistry: List<FeatureEntry> = listOf(
         description = "Chat",
         icon = Icons.AutoMirrored.Filled.Chat,
         route = ROUTE_CHAT
+    ),
+    FeatureEntry(
+        title = "Image Gallery",
+        description = "Image Gallery",
+        icon = Icons.Default.AddPhotoAlternate,
+        route = ROUTE_IMAGE_GALLERY
+    ),
+    FeatureEntry(
+        title = "Quiz",
+        description = "Quiz",
+        icon = Icons.AutoMirrored.Filled.Message,
+        route = ROUTE_QUIZ
     )
 )

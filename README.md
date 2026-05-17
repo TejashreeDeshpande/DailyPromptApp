@@ -240,6 +240,8 @@ Interview-style feature prompts for 40-minute coding sessions. Each prompt is sc
 | [feature-search.md](prompts/feature-search.md) | `TextField`, live list filtering, clear-to-reset |
 | [feature-favorites.md](prompts/feature-favorites.md) | Data class `copy()`, list filtering, toggle |
 | [feature-sort-filter.md](prompts/feature-sort-filter.md) | Composing multiple state transforms, `remember` chains |
+| [feature-word-frequency.md](prompts/feature-word-frequency.md) | `groupBy`, `sortedByDescending`, `filter` on strings, live update |
+| [feature-leaderboard.md](prompts/feature-leaderboard.md) | `sortedByDescending`, dense rank with `groupBy`, data class `copy()` |
 
 ### Medium — validation, async, multi-step logic
 
@@ -251,6 +253,9 @@ Interview-style feature prompts for 40-minute coding sessions. Each prompt is sc
 | [feature-expandable-list.md](prompts/feature-expandable-list.md) | `AnimatedVisibility`, exclusive state, `key` in lazy lists |
 | [feature-pull-to-refresh.md](prompts/feature-pull-to-refresh.md) | `PullRefreshIndicator`, coroutines, error handling |
 | [feature-timer.md](prompts/feature-timer.md) | Coroutines, `LaunchedEffect`, pause/resume lifecycle |
+| [feature-budget-by-category.md](prompts/feature-budget-by-category.md) | `groupBy`, `sumOf`, sealed class categories, `filter` by selection |
+| [feature-stopwatch.md](prompts/feature-stopwatch.md) | `Flow` ticker, `LaunchedEffect`, lap list, 100 ms updates |
+| [feature-async-loader.md](prompts/feature-async-loader.md) | Sealed UI state (Loading/Success/Error), coroutines, retry pattern |
 
 ### Medium-Hard — navigation, persistence, animations
 
@@ -261,6 +266,7 @@ Interview-style feature prompts for 40-minute coding sessions. Each prompt is sc
 | [feature-animated-splash.md](prompts/feature-animated-splash.md) | `animate*AsState`, `NavHost` transitions, launch logic |
 | [feature-swipe-to-delete.md](prompts/feature-swipe-to-delete.md) | `SwipeToDismiss`, `Snackbar`, undo pattern |
 | [feature-image-gallery.md](prompts/feature-image-gallery.md) | `LazyVerticalGrid`, Coil/image loading, async states |
+| [feature-generic-list.md](prompts/feature-generic-list.md) | Generic composable, type parameters, higher-order functions |
 
 ### Hard — persistence, system APIs, advanced patterns
 

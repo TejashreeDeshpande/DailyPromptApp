@@ -3,6 +3,8 @@ package com.example.dailypromptapp
 import android.app.Application
 import com.example.feature.counter.di.chatUiModule
 import com.example.feature.counter.di.counterModule
+import com.example.feature.quiz.di.quizModule
+import com.example.feature.imagegallery.di.imageGalleryModule
 import com.example.feature.search.di.searchModule
 import com.example.feature.todolist.di.todolistModule
 import org.koin.android.ext.koin.androidContext
@@ -13,10 +15,13 @@ class DailyPromptApp : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@DailyPromptApp)
+
             modules(searchModule)
             modules(counterModule)
             modules(todolistModule)
             modules(chatUiModule)
+            modules(imageGalleryModule)
+            modules(quizModule)
         }
     }
 }

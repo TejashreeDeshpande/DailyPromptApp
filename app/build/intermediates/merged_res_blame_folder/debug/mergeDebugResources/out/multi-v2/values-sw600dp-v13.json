@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.dailypromptapp-mergeDebugResources-49:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.example.dailypromptapp-mergeDebugResources-50:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/tejashree/.gradle/caches/8.11.1/transforms/dfac8f6d4dc275783cba387ab1090fe6/transformed/appcompat-1.7.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",

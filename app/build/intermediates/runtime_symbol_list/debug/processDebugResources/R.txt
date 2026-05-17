@@ -770,6 +770,7 @@ int id center_vertical 0x7f080049
 int id checkbox 0x7f08004a
 int id checked 0x7f08004b
 int id chronometer 0x7f08004c
+int id coil_request_manager 0x7f0800de
 int id collapseActionView 0x7f08004d
 int id compose_prefetch_scheduler 0x7f08004e
 int id compose_view_saveable_id_tag 0x7f08004f
