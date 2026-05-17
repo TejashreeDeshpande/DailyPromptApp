@@ -4,6 +4,7 @@ import android.app.Application
 import com.example.feature.counter.di.chatUiModule
 import com.example.feature.counter.di.counterModule
 import com.example.feature.quiz.di.quizModule
+import com.example.feature.pagination.di.paginationModule
 import com.example.feature.imagegallery.di.imageGalleryModule
 import com.example.feature.search.di.searchModule
 import com.example.feature.todolist.di.todolistModule
@@ -22,6 +23,7 @@ class DailyPromptApp : Application() {
             modules(chatUiModule)
             modules(imageGalleryModule)
             modules(quizModule)
+            modules(paginationModule)
         }
     }
 }

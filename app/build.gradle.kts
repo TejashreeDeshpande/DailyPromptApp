@@ -61,4 +61,5 @@ dependencies {
     implementation(project(":features:feature-chat-ui"))
     implementation(project(":features:feature-image-gallery"))
     implementation(project(":features:feature-quiz"))
+    implementation(project(":features:feature-pagination"))
 }

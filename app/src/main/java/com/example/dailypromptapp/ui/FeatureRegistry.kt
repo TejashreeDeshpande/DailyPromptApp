@@ -2,6 +2,7 @@ package com.example.dailypromptapp.ui
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Chat
+import androidx.compose.material.icons.automirrored.filled.LastPage
 import androidx.compose.material.icons.automirrored.filled.Message
 import androidx.compose.material.icons.automirrored.filled.Note
 import androidx.compose.material.icons.filled.Add
@@ -11,6 +12,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.feature.chat.ui.navigation.ROUTE_CHAT
 import com.example.feature.counter.navigation.ROUTE_COUNTER
 import com.example.feature.imagegallery.navigation.ROUTE_IMAGE_GALLERY
+import com.example.feature.pagination.navigation.ROUTE_PAGINATION
 import com.example.feature.search.navigation.ROUTE_SEARCH
 import com.example.feature.todolist.navigation.ROUTE_TODOLIST
 import com.example.feature.quiz.navigation.ROUTE_QUIZ
@@ -65,5 +67,11 @@ val featureRegistry: List<FeatureEntry> = listOf(
         description = "Quiz",
         icon = Icons.AutoMirrored.Filled.Message,
         route = ROUTE_QUIZ
+    ),
+    FeatureEntry(
+        title = "Pagination",
+        description = "Pagination",
+        icon = Icons.AutoMirrored.Filled.LastPage,
+        route = ROUTE_PAGINATION
     )
 )

@@ -9,6 +9,7 @@ import com.example.dailypromptapp.ui.FeatureListScreen
 import com.example.feature.chat.ui.navigation.chatScreen
 import com.example.feature.counter.navigation.counterScreen
 import com.example.feature.imagegallery.navigation.imageGalleryScreen
+import com.example.feature.pagination.navigation.paginationScreen
 import com.example.feature.quiz.navigation.quizScreen
 import com.example.feature.search.navigation.searchScreen
 import com.example.feature.todolist.navigation.todolistScreen
@@ -38,5 +39,6 @@ fun AppNavHost(navController: NavHostController = rememberNavController()) {
         chatScreen(navController)
         imageGalleryScreen(navController)
         quizScreen(navController)
+        paginationScreen(navController)
     }
 }
