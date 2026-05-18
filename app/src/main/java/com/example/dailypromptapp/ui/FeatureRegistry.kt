@@ -7,10 +7,12 @@ import androidx.compose.material.icons.automirrored.filled.Message
 import androidx.compose.material.icons.automirrored.filled.Note
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.AddPhotoAlternate
+import androidx.compose.material.icons.filled.CloudDownload
 import androidx.compose.material.icons.filled.Leaderboard
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.example.feature.chat.ui.navigation.ROUTE_CHAT
+import com.example.feature.chatui.navigation.ROUTE_CHAT
+import com.example.feature.asyncloader.navigation.ROUTE_ASYNC_LOADER
 import com.example.feature.counter.navigation.ROUTE_COUNTER
 import com.example.feature.imagegallery.navigation.ROUTE_IMAGE_GALLERY
 import com.example.feature.leaderboard.navigation.ROUTE_LEADERBOARD
@@ -81,5 +83,11 @@ val featureRegistry: List<FeatureEntry> = listOf(
         description = "Leaderboard",
         icon = Icons.Default.Leaderboard,
         route = ROUTE_LEADERBOARD
+    ),
+    FeatureEntry(
+        title = "Async Loader",
+        description = "Async Loader",
+        icon = Icons.Default.CloudDownload,
+        route = ROUTE_ASYNC_LOADER
     )
 )

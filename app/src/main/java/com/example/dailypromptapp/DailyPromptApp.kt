@@ -1,12 +1,13 @@
 package com.example.dailypromptapp
 
 import android.app.Application
-import com.example.feature.counter.di.chatUiModule
+import com.example.feature.chatui.di.chatUiModule
 import com.example.feature.counter.di.counterModule
-import com.example.feature.quiz.di.quizModule
-import com.example.feature.pagination.di.paginationModule
 import com.example.feature.imagegallery.di.imageGalleryModule
 import com.example.feature.leaderboard.di.leaderboardModule
+import com.example.feature.asyncloader.di.asyncLoaderModule
+import com.example.feature.pagination.di.paginationModule
+import com.example.feature.quiz.di.quizModule
 import com.example.feature.search.di.searchModule
 import com.example.feature.todolist.di.todolistModule
 import org.koin.android.ext.koin.androidContext
@@ -26,6 +27,7 @@ class DailyPromptApp : Application() {
             modules(quizModule)
             modules(paginationModule)
             modules(leaderboardModule)
+            modules(asyncLoaderModule)
         }
     }
 }

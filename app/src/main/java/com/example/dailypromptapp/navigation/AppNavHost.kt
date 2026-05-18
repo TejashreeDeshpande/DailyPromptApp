@@ -6,7 +6,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.dailypromptapp.ui.FeatureListScreen
-import com.example.feature.chat.ui.navigation.chatScreen
+import com.example.feature.chatui.navigation.chatScreen
+import com.example.feature.asyncloader.navigation.asyncLoaderScreen
 import com.example.feature.counter.navigation.counterScreen
 import com.example.feature.imagegallery.navigation.imageGalleryScreen
 import com.example.feature.leaderboard.navigation.leaderboardScreen
@@ -42,5 +43,6 @@ fun AppNavHost(navController: NavHostController = rememberNavController()) {
         quizScreen(navController)
         paginationScreen(navController)
         leaderboardScreen(navController)
+        asyncLoaderScreen(navController)
     }
 }
