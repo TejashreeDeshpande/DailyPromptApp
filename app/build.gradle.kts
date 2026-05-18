@@ -64,4 +64,5 @@ dependencies {
     implementation(project(":features:feature-pagination"))
     implementation(project(":features:feature-leaderboard"))
     implementation(project(":features:feature-async-loader"))
+    implementation(project(":features:feature-form-validation"))
 }

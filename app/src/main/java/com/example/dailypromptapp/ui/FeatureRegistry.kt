@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.feature.chatui.navigation.ROUTE_CHAT
 import com.example.feature.asyncloader.navigation.ROUTE_ASYNC_LOADER
 import com.example.feature.counter.navigation.ROUTE_COUNTER
+import com.example.feature.formvalidation.navigation.ROUTE_FORM_VALIDATION
 import com.example.feature.imagegallery.navigation.ROUTE_IMAGE_GALLERY
 import com.example.feature.leaderboard.navigation.ROUTE_LEADERBOARD
 import com.example.feature.pagination.navigation.ROUTE_PAGINATION
@@ -89,5 +90,11 @@ val featureRegistry: List<FeatureEntry> = listOf(
         description = "Async Loader",
         icon = Icons.Default.CloudDownload,
         route = ROUTE_ASYNC_LOADER
+    ),
+    FeatureEntry(
+        title = "Form Validation",
+        description = "Form Validation",
+        icon = Icons.Default.CloudDownload,
+        route = ROUTE_FORM_VALIDATION
     )
 )
