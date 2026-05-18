@@ -23,7 +23,7 @@ class AsyncLoaderViewModel : ViewModel() {
     fun fetchProducts() {
         viewModelScope.launch {
             _uiState.value = UiState.Loading
-            delay(1000)
+            delay(2000)
 
             val isSuccess = Random.nextBoolean()
 
