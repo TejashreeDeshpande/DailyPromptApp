@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/features/feature-async-loader" />
             <option value="$PROJECT_DIR$/features/feature-chat-ui" />
             <option value="$PROJECT_DIR$/features/feature-counter" />
+            <option value="$PROJECT_DIR$/features/feature-form-validation" />
             <option value="$PROJECT_DIR$/features/feature-image-gallery" />
             <option value="$PROJECT_DIR$/features/feature-leaderboard" />
             <option value="$PROJECT_DIR$/features/feature-pagination" />
