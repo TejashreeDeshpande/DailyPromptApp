@@ -10,6 +10,7 @@ import com.example.feature.chatui.navigation.chatScreen
 import com.example.feature.asyncloader.navigation.asyncLoaderScreen
 import com.example.feature.counter.navigation.counterScreen
 import com.example.feature.formvalidation.navigation.formValidationScreen
+import com.example.feature.formvalidation.navigation.parallelLoadingScreen
 import com.example.feature.imagegallery.navigation.imageGalleryScreen
 import com.example.feature.leaderboard.navigation.leaderboardScreen
 import com.example.feature.pagination.navigation.paginationScreen
@@ -46,5 +47,6 @@ fun AppNavHost(navController: NavHostController = rememberNavController()) {
         leaderboardScreen(navController)
         asyncLoaderScreen(navController)
         formValidationScreen(navController)
+        parallelLoadingScreen(navController)
     }
 }

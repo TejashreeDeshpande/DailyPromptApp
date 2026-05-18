@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/features/feature-image-gallery" />
             <option value="$PROJECT_DIR$/features/feature-leaderboard" />
             <option value="$PROJECT_DIR$/features/feature-pagination" />
+            <option value="$PROJECT_DIR$/features/feature-parallel-loading" />
             <option value="$PROJECT_DIR$/features/feature-quiz" />
             <option value="$PROJECT_DIR$/features/feature-search" />
             <option value="$PROJECT_DIR$/features/feature-todolist" />
