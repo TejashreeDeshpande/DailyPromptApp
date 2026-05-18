@@ -62,4 +62,5 @@ dependencies {
     implementation(project(":features:feature-image-gallery"))
     implementation(project(":features:feature-quiz"))
     implementation(project(":features:feature-pagination"))
+    implementation(project(":features:feature-leaderboard"))
 }

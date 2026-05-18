@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/features/feature-chat-ui" />
             <option value="$PROJECT_DIR$/features/feature-counter" />
             <option value="$PROJECT_DIR$/features/feature-image-gallery" />
+            <option value="$PROJECT_DIR$/features/feature-leaderboard" />
             <option value="$PROJECT_DIR$/features/feature-pagination" />
             <option value="$PROJECT_DIR$/features/feature-quiz" />
             <option value="$PROJECT_DIR$/features/feature-search" />

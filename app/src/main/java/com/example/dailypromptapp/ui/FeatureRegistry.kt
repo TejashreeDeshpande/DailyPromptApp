@@ -7,11 +7,13 @@ import androidx.compose.material.icons.automirrored.filled.Message
 import androidx.compose.material.icons.automirrored.filled.Note
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.AddPhotoAlternate
+import androidx.compose.material.icons.filled.Leaderboard
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.example.feature.chat.ui.navigation.ROUTE_CHAT
 import com.example.feature.counter.navigation.ROUTE_COUNTER
 import com.example.feature.imagegallery.navigation.ROUTE_IMAGE_GALLERY
+import com.example.feature.leaderboard.navigation.ROUTE_LEADERBOARD
 import com.example.feature.pagination.navigation.ROUTE_PAGINATION
 import com.example.feature.search.navigation.ROUTE_SEARCH
 import com.example.feature.todolist.navigation.ROUTE_TODOLIST
@@ -73,5 +75,11 @@ val featureRegistry: List<FeatureEntry> = listOf(
         description = "Pagination",
         icon = Icons.AutoMirrored.Filled.LastPage,
         route = ROUTE_PAGINATION
+    ),
+    FeatureEntry(
+        title = "Leaderboard",
+        description = "Leaderboard",
+        icon = Icons.Default.Leaderboard,
+        route = ROUTE_LEADERBOARD
     )
 )
